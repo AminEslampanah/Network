@@ -1,0 +1,89 @@
+key chain router_AUTH
+ key 1
+  key-string R3@lP@$$
+  cryptographic-algorithm hmac-sha-256
+  send-lifetime local 00:00:00 1 Jan 2024 11:59:59 30 Jan 2024
+  accept-lifetime local 00:00:00 1 Jan 2024 11:59:59 30 Jan 2024
+  exit
+!
+ key 2
+  key-string C0mpl3x!
+  cryptographic-algorithm hmac-sha-256
+  send-lifetime local 00:00:00 1 Feb 2024 11:59:59 30 Feb 2024
+  accept-lifetime local 00:00:00 1 Feb 2024 11:59:59 30 Feb 2024
+  exit
+!
+ key 3
+  key-string $tr0ngPw
+  cryptographic-algorithm hmac-sha-256
+  send-lifetime local 00:00:00 1 Mar 2024 11:59:59 30 Mar 2024
+  accept-lifetime local 00:00:00 1 Mar 2024 11:59:59 30 Mar 2024
+  exit
+!
+ key 4
+  key-string P@s5w0rd
+  cryptographic-algorithm hmac-sha-256
+  send-lifetime local 00:00:00 1 Apr 2024 11:59:59 30 Apr 2024
+  accept-lifetime local 00:00:00 1 Apr 2024 11:59:59 30 Apr 2024
+  exit
+!
+ key 5
+  key-string 8C0mpl3x
+  cryptographic-algorithm hmac-sha-256
+  send-lifetime local 00:00:00 1 May 2024 11:59:59 30 May 2024
+  accept-lifetime local 00:00:00 1 May 2024 11:59:59 30 May 2024
+  exit
+!
+ key 6
+  key-string P@$5w0rd
+  cryptographic-algorithm hmac-sha-256
+  send-lifetime local 00:00:00 1 Jun 2024 11:59:59 30 Jun 2024
+  accept-lifetime local 00:00:00 1 Jun 2024 11:59:59 30 Jun 2024
+  exit
+!
+ key 7
+  key-string C0np1Ex!
+  cryptographic-algorithm hmac-sha-256
+  send-lifetime local 00:00:00 1 Jul 2024 11:59:59 30 Jul 2024
+  accept-lifetime local 00:00:00 1 Jul 2024 11:59:59 30 Jul 2024
+  exit
+!
+ key 8
+  key-string mnb$w0rd!
+  cryptographic-algorithm hmac-sha-256
+  send-lifetime local 00:00:00 1 Aug 2024 11:59:59 30 Aug 2024
+  accept-lifetime local 00:00:00 1 Aug 2024 11:59:59 30 Aug 2024
+  exit
+!
+ key 9
+  key-string 8tr0ngPW
+  cryptographic-algorithm hmac-sha-256
+  send-lifetime local 00:00:00 1 Sep 2024 11:59:59 30 Sep 2024
+  accept-lifetime local 00:00:00 1 Sep 2024 11:59:59 30 Sep 2024
+  exit
+!
+ key 10 
+  key-string S3c1ur!ty 
+  cryptographic-algorithm hmac-sha-256
+  send-lifetime local 00:00:00 1 Oct 2024 11:59:59 30 Oct 2024
+  exit
+!
+key 11 
+  key-string $ecure!
+  cryptographic-algorithm hmac-sha-256 
+  send-lifetime local 00:00:00 1 Nov 2024 11:59:59 30 Nov 2024
+  accept-lifetime local 00:00:00 1 Nov 2024 11:59:59 30 Nov 2024
+  exit
+!
+key 12 
+  key-string C0mpl3xPW 
+  cryptographic-algorithm hmac-sha-256
+  send-lifetime local 00:00:00 1 Dec 2024 11:59:59 30 Dec 2024
+  accept-lifetime local 00:00:00 1 Dec 2024 11:59:59 30 Dec 2024
+  end
+!
+!
+!
+!
+!
+show key chain router_AUTH
