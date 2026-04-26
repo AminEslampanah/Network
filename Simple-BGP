@@ -1,0 +1,28 @@
+R_1
+
+router bgp 11
+no bgp default ipv4-uni
+neighbor 100.100.100.2 remote-as 22
+neighbor 200.200.200.2 remote-as 22
+!
+address-family ipv4 uni
+network 1.1.1.1 mask 255.255.255.255
+neighbor 100.100.100.2 activate
+neighbor 200.200.200.2 activate
+exit-address-family 
+exit
+
+
+R_2
+
+router bgp 22
+no bgp default ipv4-uni
+neighbor 100.100.100.1 remote-as 11
+neighbor 200.200.200.1 remote-as 11
+!
+address-family ipv4 uni
+network 2.2.2.2 mask 255.255.255.255
+neighbor 100.100.100.1 activate
+neighbor 200.200.200.1 activate
+exit-address-family 
+exit
